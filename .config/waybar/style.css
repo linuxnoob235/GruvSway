@@ -1,0 +1,69 @@
+* {
+    border: none;
+    border-radius: 2px;
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 15px;
+    min-height: 0;
+    padding: 0 6px;
+    /* Add this to ensure no white background by default */
+    background: transparent;
+}
+
+window#waybar {
+    background-color: rgba(40, 40, 40, 0.9); /* Gruvbox dark background with transparency */
+    color: #ebdbb2; /* Gruvbox light foreground */
+}
+
+#clock,
+#pulseaudio,
+#network,
+#tray,
+#backlight,
+#battery {
+    background: transparent;
+    color: #ebdbb2;
+    padding: 0 10px;
+}
+
+#battery.charging {
+    color: #b8bb26;
+}
+
+#battery.critical {
+    color: #fb4934;
+}
+
+/* Reset all workspace button backgrounds */
+#workspaces button {
+    padding: 0 5px;
+    background-color: #282828; /* Gruvbox dark background */
+    color: #ebdbb2; /* Gruvbox light foreground */
+    border-bottom: 3px solid transparent;
+    margin: 0 2px;
+}
+
+/* Focused workspace */
+#workspaces button.focused {
+    background-color: #458588; /* Gruvbox blue */
+    color: #ebdbb2; /* Ensure text remains visible */
+    border-bottom: 3px solid #b8bb26; /* Gruvbox green */
+}
+
+/* Urgent workspace */
+#workspaces button.urgent {
+    background-color: #cc241d; /* Gruvbox red */
+    color: #fbf1c7; /* Brighter text for urgent */
+}
+
+/* Hover state */
+#workspaces button:hover {
+    background-color: #3c3836; /* Gruvbox dark gray */
+    text-shadow: none;
+    box-shadow: none;
+    border-bottom: 3px solid #928374; /* Gruvbox gray */
+}
+
+/* Ensure the container doesn't have a white background */
+#workspaces {
+    background-color: transparent;
+}
