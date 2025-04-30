@@ -4,7 +4,7 @@ My new Gruvbox themed Sway rice
 PreReqs:
 ```
 install the following with your package manager
-alacritty firefox waybar sway swaync fastfetch fish ranger thunar wofi btop
+alacritty firefox waybar sway swaync fastfetch fish ranger thunar wofi btop imv
 ```
 
 clone and install the files 
