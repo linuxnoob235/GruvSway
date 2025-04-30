@@ -3,8 +3,8 @@ My new Gruvbox themed Sway rice
 
 PreReqs:
 ```
-install the following with your package manager
-alacritty firefox waybar sway swaync fastfetch fish ranger thunar wofi btop imv
+install the following with your package manager (paru, yay, apt, dnf)
+alacritty firefox waybar sway swaync fastfetch fish ranger thunar wofi btop imv grim grimshot
 ```
 
 clone and install the files 
