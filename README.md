@@ -12,7 +12,7 @@ clone and install the files
 git clone https://github.com/linuxnoob235/GruvSway.git
 cd ~/.config && rm -rf alacritty fastfetch fish ranger sway swaync waybar wofi
 cd ~/GruvSway && mv .config/* ~/.config
-mv Wallapers/ ~/Pictures/
+mv Wallpapers/ ~/Pictures/
 ```
 
 firefox theme: https://addons.mozilla.org/en-US/firefox/addon/gruvbox-dark-theme-firefox/
